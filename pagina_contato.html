@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <img src="#" alt="logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Serviços </a>
+            <a href="#">Produtos </a>
+            <a href="#">Adoção</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulário de Adoção de Pet</h1>
+        <section>
+            
+            <form action="">
+                <label for="nome">Nome completo:</label>
+                <input type="text" placeholder="Ex:Maria Rodrigues da Silva" required name="nome" id="nome" >
+                <!-- E-mail do cliente -->
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required placeholder="exemplo@gmail.com">
+                <!-- telefone do cliente -->
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required placeholder="Ex: 99 9999-9999">
+                <!-- Endereço do cliente -->
+                <label for="endereco">Endereço completo</label>
+                <input type="text" name="endereco" id="endereco">
+                <!-- Qual o tipo de residência do cliente -->
+                <label for="residencia">Tipo de residência:</label>
+                <select name="residencia" id="residencia">
+                    <option value="">--Selecione--</option>
+                    <option value="apartamento">Apartamento</option>
+                    <option value="casa">Casa</option>
+                    <option value="sobrado">Sobrado</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <!-- Perguntando se o usuario tem pets ou não -->
+                <label for="tempet">Você já possui outros pets?</label>
+                <input type="radio" name="tempet" id="tempet-sim">
+                <label for="tempet">Sim</label>
+                <input type="radio" name="tempet" id="tempet-nao">
+                <label for="tempet">Não</label>
+                <!-- Perguntando qual a preferencia do cliente para a adoção -->
+                <label for="preferencia">Preferencia de animal para a adoção</label>
+                <select name="preferencia" id="preferencia">
+                    <option value="">--Selecione--</option>
+                    <option value="gato">Gato</option>
+                    <option value="cachorro">cachorro</option>
+                    <option value="peixe">Peixe</option>
+                    <option value="ave">Ave</option>
+                    <option value="outro">Outros</option>
+                </select>
+
+                 <label for="sobre-interesse">Observações</label>
+                 <textarea name="sobre-interesse" id="sobre-interesse" placeholder="Fale mais sobre seu interesse em adotar, sua rotina,etc"></textarea>
+
+                <!-- adicionar checkbox e o submit -->
+
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <div>
+            <!-- fazer o rodapé -->
+        </div>
+    </footer>
+</body>
+</html>
