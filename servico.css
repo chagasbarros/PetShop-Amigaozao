@@ -7,19 +7,11 @@ main {
 }
 
 img {
-    margin-left: 50px;
     height: 60px;
 }
 
 .navbar {
     background-color: #B2DCAE;  
-}
-
-.navbar a {
-    margin-right: 50px;
-}
-form {
-    width: 40%;
 }
 
 .destaque {
