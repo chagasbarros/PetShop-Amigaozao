@@ -5,27 +5,23 @@ main {
     width: 80%;
     margin: auto;
 }
-
-img {
+.img-servico {
+    height: 280px;
+    width: 100%;
+}
+.navbar-brand img {
     height: 60px;
+}
+
+@media (max-width: 768px) {
+    .bg-sm-navbar {
+        background-color: #B2DCAE;
+    }
 }
 
 .navbar {
     background-color: #B2DCAE;  
-}
-
-.destaque {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-.destaque img {
-    width: 400px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 10px;
+    min-height: 60px;
 }
 .bannerPrincipal img {
     width: 100%;
