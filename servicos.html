@@ -51,7 +51,7 @@
                         </button>
                     </div>
 
-                    <div class="collapse navbar-collapse w-75" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse w-75 justify-content-around" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-md-0">
                           <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
@@ -73,12 +73,32 @@
             </nav>
         </header>
         <main>
-
-
-            <section class="bannerPrincipal rounded-5">
-                <img src="imagens/petPascoa.png" alt="Banner Principal" class="rounded-5" >
+            <section>
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="imagens/petHospedagem.png" class="img-servico" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagens/petTaxiDog.png" class=" img-servico" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/petBanhoTosa.png" class="img-servico" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/petVeterinario.png" class="img-servico" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </section>
-
 
             <section class="rounded-5">
                 <div class="d-flex flex-column flex-md-row mt-3 text-center">
@@ -87,9 +107,10 @@
                     </div>
         
                     <div class="w-100 w-md-50 p-3 align-content-center">
-                        <h3>Hospedagem Pet</h3>
-                        <p>O melhor lugar para deixar seu Bichinho!</p>
-                        <p>Agende logo a estadia do seu animal.</p>
+                        <h3>Hotel para todos os pets!</h3>
+                        <p>Seu pet merece conforto, carinho e segurança. Hospedagem com visita veterinária e acompanhamento
+                            do nosso Personal Pet, garantindo atenção exclusica do check-in ao check-out.
+                        </p>
                     </div>
         
                 </div>
@@ -99,9 +120,10 @@
             <section class="rounded-5">
                 <div class="d-flex  flex-column-reverse flex-md-row mt-3 text-center">
                     <div class="w-100 w-md-50 p-3 align-content-center">
-                        <h3>Táxi Dog</h3>
-                        <p>Buscamos e deixamos seu pet com segurança e conforto.</p>
-                        <p>Aproveite nossas promoções de horário agendado!</p>
+                        <h3>Levamos seu pet com cuidado e segurança</h3>
+                        <p>Serviço de transporte para consultas, passeios, praia ou onde você precisar, em Fortaleza e toda a Região Metropolitana.
+                            tranquilidade para você, conforto pro seu pet.
+                        </p>
                     </div>
                     <div class="w-100 w-dm-50">
                         <img src="imagens/petTaxiDog.png" alt="" class=" img-servico mb-3 mb-md-0 p-3 rounded-5">
@@ -116,20 +138,20 @@
                         <img src="imagens/petBanhoTosa.png" alt="" class="img-servico mb-3 mb-md-0 p-3 rounded-5">
                     </div>
                     <div class="w-100 w-md-50 p-3 align-content-center">
-                        <h3>Banho e Tosa</h3>
-                        <p>Aqui cuidamos com carinho e confiança</p>
-                        <p>Agende o melhor horário para deixar seu pet limpinho!</p>
+                        <h3>Beleza, higiene e bem-estar</h3>
+                        <p>Banhos relaxantes, tosa profissional, produtos de qualidade e equipe treinada para cuidar do seu pet com todo carinho que ele merece.</p>
                     </div>
                 </div>
             </section>
 
 
-            <section class="rounded-5">
+            <section class="rounded-5 mb-5">
                 <div class="d-flex flex-column-reverse flex-md-row mt-3 text-center">
                     <div class="w-100 w-md-50 p-3 align-content-center">
-                        <h3>Atendimento Veterinário</h3>
-                        <p>Temos os melhores médicos para seu Pet</p>
-                        <p>Venha fazer uma consulta com a gente!</p>
+                        <h3>Saúde em primeiro lugar</h3>
+                        <p>Consultas e cuidados veterinários de segunda a sexta no horário comercial e aos sábados até o meio-dia. 
+                            Atendimento com dedicação, sempre que seu pet precisar.
+                        </p>
                     </div>
                     <div class="w-100 w-dm-50">
                         <img src="imagens/petVeterinario.png" alt="" class="img-servico mb-3 mb-md-0 p-3 rounded-5">
@@ -138,9 +160,14 @@
             </section>
 
 
-            <section>
-                <h3>Um pequeno texto dos serviços</h3>
-                <p>Informações Adicionais ou texto explicativo.</p>
+            <section class="rounded-5">
+
+                <div class="ms-3">
+                    <h3 class="display-5">Nossos Serviços</h3>
+                    <p> O Pet nasceu do amor pelos animais e do compromisso em oferecer um atendimento completo, acolhedor e de qualidade.
+                        Trabalhamos todos os dias para garantir o bem-estar dos pets e a tranquilidade de seus tutores, com profissionais capacitados, estrutura segura e muito carinho em cada serviço.
+                        Nosso maior objetivo é ver cada pet feliz, saudável e bem cuidado como se estivesse em casa.</p>
+                </div>
             </section>
         </main>
         <footer class="pb-5 p-md-0">
