@@ -5,9 +5,13 @@ main {
     width: 80%;
     margin: auto;
 }
-section{
+.section-servico{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     background-color: white;
+}
+
+.icon-person {
+    font-size: 5rem;
 }
 
 .custom-carousel-btn{
@@ -87,3 +91,38 @@ section{
 #logo{
     width: 9%;
 }
+
+
+.btnVoltar-login {
+    color: #B2DCAE;
+    font-weight: bold;
+}
+
+.btnEntrar-login {
+    background-color: #B2DCAE;
+}
+
+.imgLogo-login {
+    width: 120px;
+    height: 80px;
+}
+
+#login-email:focus, 
+#login-password:focus {
+    border-color: #B2DCAE !important;
+    outline: none;
+}
+
+.icon-estilizado {
+    font-size: 48px; /* tamanho do ícone */
+    border: 2px solid #B2DCAE; /* cor da borda */
+    border-radius: 50%; /* borda circular */
+    padding: 10px; /* espaço interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra suave */
+    color: #bdc5bc; /* cor do ícone */
+    background-color: rgb(8, 77, 45); /* opcional, fundo branco */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
