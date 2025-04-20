@@ -5,6 +5,10 @@ main {
     width: 80%;
     margin: auto;
 }
+section{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
 
 .custom-carousel-btn{
     background-color: rgba(220, 53, 69, 0.7);
@@ -12,11 +16,16 @@ main {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
     position: absolute;
     top: 50%;
     transform: translateY(500%);
     z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .custom-carousel-btn {
+        transform: translateY(250%);
+    }
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -28,6 +37,13 @@ main {
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+@media (max-width: 768px) {
+    .img-servico {
+        max-height: 300px;
+        height: auto;
+    }
 }
 .navbar-brand img {
     height: 60px;
@@ -41,7 +57,7 @@ main {
 
 .navbar {
     background-color: #B2DCAE;  
-    min-height: 60px;
+    min-height: 30px;
 }
 .bannerPrincipal img {
     width: 100%;
@@ -49,17 +65,6 @@ main {
     margin: 0;
 }
 
-section {
-    background-color: white;
-}
-.footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #B2DCAE;  
-    align-items:start;
-    padding-bottom: 50px;
-    color: white;
-}
 .redesSociais {
     text-align: center;
     background-color: rgb(230, 223, 223);
@@ -72,6 +77,7 @@ section {
 #linkredes{
     color: black;
 }
+
 #btnenviar{
     background-color: #EAB371;
 }
