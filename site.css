@@ -113,13 +113,13 @@ main {
 }
 
 .icon-estilizado {
-    font-size: 48px; /* tamanho do ícone */
-    border: 2px solid #B2DCAE; /* cor da borda */
-    border-radius: 50%; /* borda circular */
-    padding: 10px; /* espaço interno */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra suave */
-    color: #bdc5bc; /* cor do ícone */
-    background-color: rgb(8, 77, 45); /* opcional, fundo branco */
+    font-size: 48px;
+    border: 2px solid #B2DCAE;
+    border-radius: 50%; 
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #bdc5bc; 
+    background-color: rgb(8, 77, 45);
     display: inline-flex;
     align-items: center;
     justify-content: center;
