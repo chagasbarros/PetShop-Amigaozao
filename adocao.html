@@ -24,7 +24,8 @@
     </div>
     <nav class="navbar d-none d-md-block">
         <div class="d-flex flex-column flex-md-row align-items-center justify-content-between w-100 mx-auto px-4" style="max-width: 86%;">
-            <a href="servicos.html"><img src="imagens/amigãozão.png" alt="" id="logo" class="img-fluid w-25"></a>
+
+            <a href="home.html"><img src="imagens/amigãozão.png" alt="" id="logo" class="img-fluid w-25"></a>
           
             <form role="search" class="my-3 my-md-0 w-100 w-md-auto">
               <div class="input-group w-50 w-md-auto">
@@ -34,17 +35,26 @@
                 </span>
               </div>
             </form>
-          
-            <a href="login.html" class="navbar-brand text-center"><i class="bi bi-person-circle"></i> Entre ou Registre-se</a>
-        </div>
-          
+         
+            <a class="navbar-brand text-center" href="login.html"><i class="bi bi-person-circle"></i> Entre ou cadastre-se</a>
+        </div>     
     </nav>
+
     <nav class="navbar navbar-expand-md bg-body-tertiary mb-3">
 
         <div class="container-fluid gx-0 d-flex flex-column">
 
-            <div class="bg-sm-navbar d-flex align-items-center px-5 w-100">
-                <a class="navbar-brand" href="servicos.html"><img src="imagens/amigãozão.png" alt="" class="img-fluid d-md-none"></a>
+            <div class="bg-sm-navbar d-flex align-items-center justify-content-between px-5 w-100">
+                <a class="navbar-brand" href="#"><img src="imagens/amigãozão.png" alt="" class="img-fluid d-md-none"></a>
+
+                <form role="search" class="my-3 my-md-0 w-100 d-flex d-sm-block d-md-none">
+                    <div class="input-group w-75 w-md-auto ms-3">
+                      <input type="text" class="form-control ms-5 pe-1" placeholder="Para o pet">
+                      <span class="input-group-text">
+                        <i class="bi bi-search"></i>
+                      </span>
+                    </div>
+                  </form>
 
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -52,24 +62,26 @@
             </div>
 
             <div class="collapse navbar-collapse w-75 justify-content-around" id="navbarSupportedContent">
+
                 <ul class="navbar-nav mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="servicos.html">SERVIÇOS</a>
+                    <a class="nav-link active" aria-current="page" href="#">SERVIÇOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="produtos.html">PRODUTOS</a>
+                    <a class="nav-link active" aria-current="page" href="#">PRODUTOS</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="adocao.html">ADOÇÃO</a>
                   </li>
+                  <li class="nav-item d-md-none">
+                    <a class="nav-link active" aria-current="page" href="login.html">LOGIN</a>
+                  </li>
                 </ul>
             </div>
-            
         </div>
-
     </nav>
     </header>
     <main>

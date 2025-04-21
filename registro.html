@@ -11,64 +11,16 @@
 </head>
 <body>
     <header>
-        <div class="d-flex justify-content-between align-items-center px-4 flex-column flex-md-row w-100 mx-auto" style="max-width: 86%;">
-            <div>
-                <p class="h6 text-nowrap">Temos táxiDog para Fortaleza e Região Metropolitana.</p>
-            </div>
-            <div class="d-flex justify-content-end">
-                <a href="" class="text-decoration-none link-dark h6 ">Atendimento<i class="bi bi-headset"></i></a>
-    
-            </div>
-    
-        </div>
-        <nav class="navbar d-none d-md-block">
-            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between w-100 mx-auto px-4" style="max-width: 86%;">
-                <img src="imagens/amigãozão.png" alt="" id="logo" class="img-fluid">
-              
-                <form role="search" class="my-3 my-md-0 w-100 w-md-auto d-flex justify-content-center">
-                  <div class="input-group w-75 w-md-auto">
-                    <input type="text" class="form-control" placeholder="Para seu pet">
-                    <span class="input-group-text">
-                      <i class="bi bi-search"></i>
-                    </span>
-                  </div>
-                </form>
-              
-                <a class="navbar-brand text-center"><i class="bi bi-person-circle"></i> Entre ou Registre-se</a>
-            </div>
-              
-        </nav>
-        <nav class="navbar navbar-expand-md bg-body-tertiary mb-3">
-    
-            <div class="container-fluid gx-0 d-flex flex-column">
-    
-                <div class="bg-sm-navbar d-flex align-items-center px-5 w-100">
-                    <a class="navbar-brand" href="#"><img src="imagens/amigãozão.png" alt="" class="img-fluid d-md-none"></a>
-    
-                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+        <nav class=" navbar p-0">
+            <div class="container">
+                <div class="col-6">
+                    <a href="servicos.html"><img src="imagens/amigãozão.png" class="img-fluid imgLogo-login" alt="logo do petshop"></a>
                 </div>
-    
-                <div class="collapse navbar-collapse w-75 justify-content-around" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-md-0">
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">HOME</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="servicos.html">SERVIÇOS</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="produtos.html">PRODUTOS</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="adocao.html">ADOÇÃO</a>
-                      </li>
-                    </ul>
+
+                <div class="col-6 d-flex justify-content-end">
+                    <i class="bi bi-lock pe-2 "></i><p>Ambiente seguro</p>
                 </div>
-                
             </div>
-    
         </nav>
       </header>
     <main>
@@ -91,11 +43,52 @@
                 
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" name="termo" id="termo" required>
-                  <label class="form-check-label" aria-required="true" for="termo">Declaro que li e concordo com os termos</label>
+                  <label class="form-check-label" aria-required="true" for="termo">Declaro que li e concordo com os <a type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">termos</a></label>
+                                <!-- termos (Escrito com chatgpt) -->
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Termos</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                
+                                                    <strong>Termo de Cadastro – Petshop Amigãozão Petshop</strong> <br>
+                                                    Ao se cadastrar no site do Amigãozão Petshop, o(a) usuário(a) declara estar ciente e de acordo com os termos abaixo:
+                                                   <br>  <strong>1. Dados Pessoais</strong> <br>
+                                                    O(a) usuário(a) concorda em fornecer informações verdadeiras, completas e atualizadas no momento do cadastro. Esses dados serão utilizados apenas para fins de identificação, comunicação, envio de pedidos e promoções, respeitando a Lei Geral de Proteção de Dados (LGPD).
+                                                    2. Privacidade
+                                                    Seus dados pessoais estão seguros conosco. O Petshop Amigãozão Petshop se compromete a não vender, alugar ou repassar suas informações a terceiros sem autorização, exceto em casos exigidos por lei.
+                                                
+                                                    <br> <strong>3. Conta de Usuário</strong> <br>
+                                                    O(a) usuário(a) é responsável por manter a confidencialidade de seu login e senha. Toda atividade realizada com sua conta será de sua responsabilidade.
+                                                
+                                                   <br>  <strong>4. Uso do Site</strong> <br>
+                                                    O site do Petshop Amigãozão Petshop tem como finalidade oferecer produtos e serviços para animais de estimação. Qualquer uso indevido ou tentativa de fraude poderá resultar na exclusão da conta e medidas legais cabíveis.
+                                                
+                                                    <br> <strong>5. Alterações nos Termos</strong> <br>
+                                                    O Petshop Amigãozão Petshop se reserva o direito de alterar este termo a qualquer momento, sendo responsabilidade do(a) usuário(a) verificar periodicamente as atualizações.
+                                                
+                                                    <br> <strong>6. Aceite</strong> <br>
+                                                    Ao clicar na caixa de marcação(checkbox), o(a) usuário(a) declara que leu, entendeu e concorda com todos os termos acima.
+                                                
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
                 </div>
+                <p>Já tem uma conta? Faça <a href="login.html">login</a></p>
+                
                 <button type="submit" class="btn" id="btnenviar">Registre-se</button>
                 
               </form>
+              
         </section>
     </main>
     <footer class="pb-5 p-md-0">
