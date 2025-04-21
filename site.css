@@ -44,8 +44,7 @@ main {
 
 @media (max-width: 768px) {
     .img-servico {
-        max-height: 300px;
-        height: auto;
+        height: 300px;
     }
 }
 .navbar-brand img {
