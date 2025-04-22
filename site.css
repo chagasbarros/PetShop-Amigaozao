@@ -123,3 +123,12 @@ main {
     align-items: center;
     justify-content: center;
   }
+
+.img-home{
+    border-radius: 25px;
+    max-width: 250px;
+    max-height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
