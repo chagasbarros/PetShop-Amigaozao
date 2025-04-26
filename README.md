@@ -1,2 +1,2 @@
 # PetShop-GT01
-Repositório  aberto para a criação do projeto da equipe 5 da Geração tech. Com o objetivo de criar um site com o tema de PetShop
+Projeto de conclusão do Módulo de HTML e CSS do curso de Desenvolvimento Fullstack do Projeto Geração Tech. Site de um Petshop com uso de Bootstrap, responsividade e divs semânticas.
